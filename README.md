@@ -4,6 +4,8 @@ Short version:
 
 Docker container for Bitlbee 3.4.1 + all available non-purple plugins, running on a Raspberry Pi 2 with the Hypriot Linux OS
 
+Adapted from: https://github.com/sprsquish/dockerfiles/blob/master/bitlbee/Dockerfile
+
 Longer version:
 
 The attached Dockerfile will build the following in a Docker container:
