@@ -1,23 +1,25 @@
 # hypriot-bitlbee
 
-Short version:
+##Short version:
 
 Docker container for Bitlbee 3.4.1 + all available non-purple plugins, running on a Raspberry Pi 2 with the Hypriot Linux OS
 
 Adapted from: https://github.com/sprsquish/dockerfiles/blob/master/bitlbee/Dockerfile
 
-Longer version:
+##Longer version:
 
 The attached Dockerfile will build the following in a Docker container:
 
-- Bitlbee core with OTR and libssl enabled (gnutls is not available as a package on Hypriot)
+- Bitlbee 3.4.1 (from source) with OTR and libssl enabled (gnutls is not available as a package on Hypriot)
 - The Steam plugin
 - The Facebook MQTT plugin
 - The Omegle plugin
 - The Torchat plugin
 - The Discord plugin (also builds the libwebsockets dependency from source)
 
-Why:
+As a bonus, the Dockerfile contains a means (commented out) to import your user.xml file, if you're migrating from another instance of Bitlbee 3.4.1.
+
+##Why:
 
 This was part of my effort to teach myself to work with Docker, as well as getting the various non-purple plugins to work.  I later expanded on this effort by:
 
@@ -29,9 +31,9 @@ This was part of my effort to teach myself to work with Docker, as well as getti
 
 I'll eventually be adding responsitories for the other stuff.
 
-Read the notes in the Dockerfile for help on building the container.
+##Help
 
-As a bonus, the Dockerfile contains a means (commented out) to import your user.xml file, if you're migrating from another instance of Bitlbee 3.4.1.
+Read the notes in the Dockerfile for help on building the container.
 
 Above is known to work on Hypriot Linux, running on a Raspberry Pi 2.  With minor tweaking, it has also run on Ubuntu.
 
