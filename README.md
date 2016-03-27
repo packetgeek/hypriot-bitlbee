@@ -29,4 +29,8 @@ I'll eventually be adding responsitories for the other stuff.
 
 Read the notes in the Dockerfile for help on building the container.
 
+As a bonus, the Dockerfile contains a means (commented out) to import your user.xml file, if you're migrating from another instance of Bitlbee 3.4.1.
+
+Above is known to work on Hypriot Linux, running on a Raspberry Pi 2. 
+
 -- Tim
