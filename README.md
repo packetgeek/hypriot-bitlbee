@@ -27,4 +27,6 @@ This was part of my effort to teach myself to work with Docker, as well as getti
 
 I'll eventually be adding responsitories for the other stuff.
 
+Read the notes in the Dockerfile for help on building the container.
+
 -- Tim
